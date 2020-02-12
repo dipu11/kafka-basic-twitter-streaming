@@ -106,7 +106,7 @@ public class Producer1 {
 
 
     public static void main(String args[]) throws ExecutionException, InterruptedException {
-        System.out.println("Hi, there...");
+        System.out.println("Hi, there...from Producer 1");
         produceDataWithMetaToPartitions();
 
         //objectProducer();
